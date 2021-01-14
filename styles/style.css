@@ -1,8 +1,202 @@
 /*
 Colors:
 
-Text: 1A1A1A
+Text: #1A1A1A
 Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+html,body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    font-size: 16px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.spotifyLogo {
+    width: 10%;
+    height: 12%;
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+}
+
+.navBar {
+    width: 40%;
+    border: 10px solid white;
+}
+
+.navBar ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+	justify-content: space-evenly; 
+}
+
+.navBar a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+
+.introSection {
+    background-image: url("/images/landing.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+    padding-top: 50px;
+    position: relative;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 5rem;
+    padding-top: 10%;
+}
+
+.introSection p {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+.middleSection{
+    height: 32rem;
+}
+
+.middleSectionHr {
+    display: block;
+    width: 350px;
+    height: 2px;
+    border: 0;
+    border-top: 1px solid #00B172;
+    padding: 0;
+    border-color: #00B172;
+    background-color: #00B172;
+    margin-top: -30px;
+    margin-bottom: 50px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: bold;
+    padding-top: 2%;
+}
+
+h3 {
+    color: #00B172;
+    font-size: 1.7rem;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.logo {
+    width: ;
+    height: 90px;
+    padding-bottom: 2%;
+}
+
+.singleContainer {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: flex-start;
+}
+
+.container {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: flex-start;
+}
+
+.text {
+    text-align: center;
+    font-size: 1rem;
+    color: grey;
+    margin-top: 1.5rem;
+}
+
+.lowerSection {
+    background-color: #00B172;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    height: 40rem;
+    padding-bottom: 5rem;
+    padding-top: 2rem;
+}
+
+.lowerContainer {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.leftSection {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.lowerSectionHr {
+    display: block;
+    width: 530px;
+    height: 2px;
+    border: 0;
+    border-top: 1px solid white;
+    padding: 0;
+    border-color: white;
+    background-color: white;
+    margin-top: -30px;
+    margin-bottom: 50px;
+    margin-left: 0%;
+}
+
+.rightSection {
+    width: 340px;
+    margin-right: -6%;
+}
+
+.spotify {
+    margin-bottom: -20%;
+    margin-left: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+.leftSection h2 {
+    color: white;
+}
+
+.leftSection h3 {
+    color: white;
+    margin-top: 2%;
+    font-weight: bold;
+}
+
+.leftSection p {
+    color: white;
+    font-weight: lighter;
+}
