@@ -139,7 +139,7 @@ h3 {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0 0;
-    height: 40rem;
+    height: 50rem;
     padding-bottom: 5rem;
     padding-top: 2rem;
 }
@@ -177,13 +177,15 @@ h3 {
 .rightSection {
     width: 340px;
     margin-right: -6%;
+    padding-top: 10%;
 }
 
 .spotify {
-    margin-bottom: -20%;
-    margin-left: 50%;
-    height: 150px;
+    height: auto;
     width: 150px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
 }
 
 .leftSection h2 {
